@@ -5,9 +5,48 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: darkgray;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.main{
+    background-color: #eae9e9;
+    border-radius: 1vw;
+    padding: 1vw;
+    text-align: center;
+}
+
+.button-big{
+    font-size: 4vw;
+    border-radius: 1vw;
+}
+
+.yes{
+    background-color: darkgreen;
+}
+
+.no{
+    background-color: red;
+}
+
+.main-text{
+    font-size: 3vw;
+    margin-top: 1vw;
+}
+
+.spacer{
+    padding: 2vw;
+}
+
+.navbar-image{
+    max-height: 2rem;
+}
+
+.btn-secondary:active:focus {
+  outline: none;
+  box-shadow: none;
 }
