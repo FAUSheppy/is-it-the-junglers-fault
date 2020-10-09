@@ -1,27 +1,28 @@
 import React from 'react';
 import './App.css';
 
-var text00 = "So you just died in your lane, let's fine out if it was the jungler's fault."
+var text00 = "So you just died in your lane. That sucks. Let's find out if it was the jungler's fault."
 var text01 = "Was the enemy jungler involved in your death?"
-var text02 = "Did you see the enemy jungler walking over a ward and you didn't see or ignored it?"
+var text02 = "Did the enemy jungler walk over a ward and you didn't respect it?"
 var text03 = "Did you have a ward?"
-var text04 = "Was the enemy lane playing suspeciously before the gank?"
-var text05 = "Were you standing in an uncomfortable position that made a gank easy?"
-var text06 = "Do you have a scaling/farming jungle like shyyvanna ok a jungler that generally doesn't before hitting a certain level like nocture?"
+var text04 = "Was the enemy lane playing suspiciously before the gank?"
+var text05 = "Were you standing in an uncomfortable position, which made a gank easy?"
+var text06 = "Do you have a scaling/farming jungle like Shyvanna ok a jungler that generally doesn't like to gank before hitting a certain level like Nocturne?"
 var text07 = "Did you get dove?"
-var text08 = "Did you ping for help before getting dove and your jungler ignored it?"
-var text09 = "Did your jungler make a cross map play or get an objective?"
+var text08 = "Did you ping for help before getting dove?"
+var text09 = "Did your jungler make a cross-map play or get an objective?"
 var text10 = "Do you want to win your game?"
-var answer01 = "No IT WAS YOUR FUCKING FAULT, grow the fuck up stop blaming your teammates"
-var answer02 = "Yes IT WAS YOUR FUCKING fault, watch the goddamn minimap for fuck sake"
-var answer03 = "Yes IT WAS OYUR FUCKING fault, pay attention, stop autopilotion"
-var answer04 = "IT WAS YOUR FUCKING FAUL, study the fuck up on your shit wavemanagement"
-var answer05 = "If your jungler makes a crossmap play it is your fault if you die for it, either your death was worth it because the enemies didn't go to the objective or it was preventable because your could have left your tower but decided to greed for the wave."
-var answer06 = "It was probably the junglers fault. But remember nobody is perfect, sometimes junglers make mistakes, just like laners sometimes die in 1v1 or 2v2s, be kind to your jungler and try your best to win the game."
-var answer07 = "Flame the shit out of that trash and tell him to uninstall the game or play yuumi for the rest of his worthless life."
+
+var answer01 = "Let me stop you right there: It was YOUR fault you died, grow the fuck up stop blaming your teammates.."
+var answer02 = "Watch the goddamn minimap, stop blaming your jungler!"
+var answer03 = "Pay attention to the game, stop blaming your jungler!"
+var answer04 = "Maybe work on your wavemanagement instead of blaming me - eh.. I mean your jungler."
+var answer05 = "If your jungler makes a cross-map play, it is your descision to die for it. Either your death was worth it, because the enemies didn't go to the objective or it was preventable, because your could have left your tower, but decided to greed for the wave."
+var answer06 = "It was probably the jungler's fault. But remember nobody is perfect, sometimes junglers make mistakes - just like laners sometimes die in 1v1 or 2v2s. Be kind to your jungler and try your best to win the game."
+var answer07 = "Flame the shit out of that trash player and tell him to uninstall the game or play Yuumi for the rest of his worthless life."
 var answer08 = "If you are in danger of being dove, it's your responsibility to inform your team you need help. It's not the junglers responsibility to know more about your lane-state than yourself."
 var answer09 = "Stay at your goddamn tower. Stop blaming the jungler."
-var answer10 = "If you want to push, you have to ward, if you don't have a ward, you can't push. It's not the junglers fault you died."
+var answer10 = "If you want to push, you have to ward, if you don't have a ward, you can't push. It's not the junglers fault if you die pushing without a ward."
 
 class MainDialog extends React.Component{
 
