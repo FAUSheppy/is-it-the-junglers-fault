@@ -8,7 +8,11 @@ This is a small react app to find out if it really was your junglers fault.
 
     # dev
     npm start
+    
     # prod
     npm run build
     npm install -g serve
     serve -s build
+
+# Live Version
+https://wasitthejunglersfault.athq.de/
